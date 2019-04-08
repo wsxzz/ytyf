@@ -1,0 +1,1350 @@
+/* 登录页面 */
+.loginLogo {
+  margin: 2.41rem auto;
+  width: 3.89rem;
+  height: 2.72rem;
+  background-image: url(../images/login/logo.png);
+  background-size: cover;
+}
+.loginForm {
+  margin-top: 0.4rem;
+  overflow: hidden;
+}
+.loginForm .login-form-item {
+  overflow: hidden;
+  margin: 30px auto;
+  width: 7.47rem;
+  border-bottom: 1px solid #f1f1f1;
+}
+.loginForm .login-form-item img {
+  width: 0.8rem;
+  height: 0.8rem;
+  float: left;
+  vertical-align: middle;
+  /* border: 0.01rem dashed #ccc; */
+  margin-right: 0.27rem;
+}
+.loginForm .login-form-item input {
+  vertical-align: middle;
+
+  float: left;
+  height: 0.8rem;
+}
+.loginForm .login-form-item ::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-family: 'SourceHanSansCN-Normal';
+  font-size: 0.4rem;
+  color: red;
+  color: #c3c3c3;
+}
+.loginForm .login-form-item ::-moz-placeholder {
+  font-family: 'SourceHanSansCN-Normal';
+  font-size: 0.4rem;
+  color: red;
+  color: #c3c3c3;
+}
+
+.loginForm .login-form-item :-ms-input-placeholder {
+  font-family: 'SourceHanSansCN-Normal';
+  font-size: 0.4rem;
+  color: red;
+  color: #c3c3c3;
+}
+.loginForm .login-form-item :-moz-placeholder {
+  font-family: 'SourceHanSansCN-Normal';
+  font-size: 0.4rem;
+  color: red;
+  color: #c3c3c3;
+}
+
+.loginBtn {
+  width: 7.48rem;
+  height: 1.21rem;
+  margin: 0.65rem auto;
+  border-radius: 0.61rem;
+  background: -webkit-linear-gradient(
+    left,
+    #7572ff,
+    #4463ff
+  ); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(
+    left,
+    #7572ff,
+    #4463ff
+  ); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(
+    left,
+    #7572ff,
+    #4463ff
+  ); /* Firefox 3.6 - 15 */
+  background: linear-gradient(left, #7572ff, #4463ff); /* 标准的语法 */
+  color: #fff;
+  background-size: cover;
+  font-size: 0.4rem;
+  font-family: 'SourceHanSansCN-Normal';
+  color: #fffefe;
+  line-height: 1.21rem;
+  text-align: center;
+}
+
+/* 宇泰寿首页（lifeIndex） 后改 产品中心（productCenter） */
+.lifeIndex .swiper-container {
+  position: relative;
+}
+.indexSearch {
+  text-indent: 0.67rem;
+  position: absolute;
+  top: 0.3rem;
+  left: 0.27rem;
+  width: 9.47rem;
+  height: 0.93rem;
+  font-size: 0.45rem;
+  z-index: 9;
+  border-radius: 0.47rem;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.indexNav {
+  padding: 0 0.6rem;
+  position: relative;
+  box-shadow: 2px 0 7px rgba(204, 204, 204, 0.6);
+}
+.indexNav .indexNotice {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-family: 'SourceHanSansCN-Light';
+  font-size: 0.16rem;
+  overflow: hidden;
+  height: 0.67rem;
+}
+.indexNav .smallHorn {
+  position: absolute;
+  top: 0.12rem;
+  left: 0.8rem;
+  width: 0.45rem;
+  height: 0.45rem;
+  background-size: cover;
+  background-image: url(../images/lifeIndex/IndexSmallHorn.png);
+}
+.indexNav .indexNotice p {
+  text-indent: 0.8rem;
+  float: left;
+  height: 100%;
+  line-height: 0.67rem;
+}
+.indexNav .navCont {
+  padding: 0.88rem 0;
+  display: flex;
+  display: -webkit-flex; /* Safari */
+  justify-content: space-between;
+}
+.indexNav .navCont .navItem {
+  width: 1.33rem;
+  display: block;
+}
+.indexNav .navCont .navItem img {
+  width: 1.33rem;
+}
+.indexNav .navCont .navItem p {
+  font-family: 'SourceHanSansCN-Light';
+  font-size: 0.35rem;
+  display: block;
+  text-align: center;
+  margin-top: 0.12rem;
+  color: #333;
+}
+.proList .proTitle {
+  padding-left: 0.59rem;
+  font-size: 0.4rem;
+  font-family: 'SourceHanSansCN-Medium';
+  height: 1rem;
+  line-height: 1rem;
+  position: relative;
+}
+.proList .proTitle::before {
+  content: '';
+  position: absolute;
+  top: 0.3rem;
+  left: 0.32rem;
+  width: 0.08rem;
+  height: 0.4rem;
+  background-color: #3564e4;
+}
+.proList .proItem {
+  overflow: hidden;
+  margin-top: 0.27rem;
+}
+.proList .proItem .proLeft {
+  width: 3.09rem;
+  height: 2.83rem;
+  float: left;
+  padding: 0 0.2rem 0.25rem;
+}
+
+.proList .proItem .proLeft img {
+  width: 100%;
+  height: 100%;
+}
+.proList .proItem .proRight {
+  float: left;
+  padding-left: 0.13rem;
+  width: 6.9rem;
+  font-family: 'SourceHanSansCN-Light';
+  font-size: 0.29rem;
+  padding-right: 0.27rem;
+}
+.proList .proItem .proRight p {
+  margin-bottom: 0.05rem;
+}
+.proList .proItem .proRight p.proRightTitle {
+  overflow: hidden;
+}
+.proList .proItem .proRight p.proRightTitle .left {
+  float: left;
+  font-size: 0.4rem;
+  color: #333333;
+  font-family: 'SourceHanSansCN-Medium';
+}
+.proList .proItem .proRight p.proRightTitle .right {
+  float: right;
+  color: #3564e4;
+}
+.proList .proItem .proRight .proRightCont {
+  padding-right: 0.2rem;
+  font-size: 0.32rem;
+  font-family: 'SourceHanSansCN-Light';
+}
+.proList .proItem .proRight .freeMoney {
+  height: 0.48rem;
+  text-align: right;
+  padding-right: 0.5rem;
+  position: relative;
+  font-family: 'SourceHanSansCN-Medium';
+  font-size: 0.37rem;
+  color: #ff6c00;
+}
+.proList .proItem .proRight .freeMoney .firstYear {
+  position: absolute;
+  bottom: 0;
+  right: 0.4rem;
+  z-index: 9;
+}
+.proList .proItem .proRight .freeMoney .botArrow {
+  content: '';
+  position: absolute;
+  width: 0.37rem;
+  height: 0.37rem;
+  top: 0.07rem;
+  right: -0.48rem;
+  z-index: 9;
+  /* bottom: 0; */
+  /* background-color: lime; */
+  background-size: cover;
+  background-image: url(../images/lifeIndex/indexArrowBot.png);
+}
+.proBottom {
+  padding: 1.73rem 2.4rem;
+  font-size: 0.29rem;
+  font-family: 'SourceHanSansCN-Light';
+  color: #666666;
+  position: relative;
+}
+.backtop {
+  /* display: none; */
+  position: fixed;
+  z-index: 99;
+  bottom: 1.34rem;
+  right: 0.14rem;
+  width: 1.23rem;
+  height: 1.23rem;
+  background-size: contain;
+  background-image: url(../images/lifeIndex/IndexbackTop.png);
+}
+/* 首页/产品中心的模态框 */
+.proCenterMask {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.proCenterModal {
+  width: 100%;
+  height: 100%;
+}
+.proCenterTab {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+}
+.proCenterTab .proTitle {
+  padding-left: 0.59rem;
+  font-size: 0.4rem;
+  font-family: 'SourceHanSansCN-Medium';
+  height: 1rem;
+  line-height: 1rem;
+  position: relative;
+}
+.proCenterTab .proTitle::before {
+  content: '';
+  position: absolute;
+  top: 0.3rem;
+  left: 0.32rem;
+  width: 0.08rem;
+  height: 0.4rem;
+  background-color: #3564e4;
+}
+.proCenterTabContent {
+  padding: 0 0.27rem 0.27rem;
+  width: 100%;
+}
+.proCenterTabContent table {
+  width: 100%;
+  font-size: 0.32rem;
+  font-family: 'SourceHanSansCN-Light';
+  color: #333;
+  border-collapse: collapse;
+  border: 1px solid #c9c9c9;
+  text-align: center;
+}
+.proCenterTabContent table th {
+  font-family: 'SourceHanSansCN-Medium';
+}
+.proCenterTabContent table td,
+.proCenterTabContent table th {
+  border: 1px solid #c9c9c9;
+  padding: 0.07rem 0;
+}
+.search {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+}
+/* 搜索页面 */
+.search .topSearch {
+  /* height: 0.93rem; */
+  width: 100%;
+  margin-top: 0.27rem;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f5f5f5;
+}
+.search .topSearch .se-back {
+  width: 0.8rem;
+  height: 0.8rem;
+  padding: 0.1rem;
+  margin-top: 0.03rem;
+  background-clip: border-box;
+  background-image: url(../images/search/se-back.png);
+  background-size: cover;
+  float: left;
+}
+
+.search .topSearch .se-box {
+  /* float: left; */
+  width: 100%;
+  /* overflow: hidden; */
+  height: 0.93rem;
+  padding-left: 0.4rem;
+  padding-right: 1.4rem;
+  position: relative;
+}
+.search .topSearch .se-box .mirror {
+  position: absolute;
+  top: 0.26rem;
+  left: 0.7rem;
+  width: 0.43rem;
+  height: 0.44rem;
+  background-image: url('../images/lifeIndex/mirror.png');
+  background-size: cover;
+}
+.search .topSearch .se-box input {
+  display: block;
+  background-color: #f5f5f5;
+  border-radius: 0.46rem;
+  width: 100%;
+  height: 100%;
+  text-indent: 0.85rem;
+  font-size: 0.4rem;
+}
+.search .topSearch .se-text {
+  float: right;
+  width: 1.4rem;
+  height: 100%;
+  line-height: 0.93rem;
+  text-align: center;
+  font-size: 0.37rem;
+  font-family: 'SourceHanSansCN-Light';
+}
+.se-historySearch .historyTitle {
+  width: 100%;
+  height: 1.07rem;
+  line-height: 1.07rem;
+  padding-left: 0.27rem;
+  font-size: 0.32rem;
+  color: #333;
+  font-family: 'SourceHanSansCN-Medium';
+}
+.recordBox {
+  padding-left: 0.27rem;
+  padding-top: 0.27rem;
+  padding-bottom: 0.27rem;
+  overflow: hidden;
+}
+.recordBox .recordBoxItem {
+  padding: 0.13rem 0.27rem;
+  background-color: #f9f9f9;
+  float: left;
+  font-size: 0.32rem;
+  margin: 0.13rem;
+  /* margin-right: 0.27rem;
+  margin-bottom: 0.27rem; */
+  border-radius: 0.13rem;
+}
+.se-recommand {
+  margin-top: 0.4rem;
+}
+
+/* 回答问题失败  回答问题成功  */
+.question-content img {
+  width: 4.05rem;
+  height: 3.87rem;
+  margin: 3.2rem auto 0.27rem;
+}
+.question-content p {
+  margin: 0.13rem 0;
+  font-size: 0.43rem;
+  font-family: 'SourceHanSansCN-Light';
+  text-align: center;
+}
+.answerBtn {
+  width: 8rem;
+  height: 1.71rem;
+  line-height: 1.71rem;
+  text-align: center;
+  color: #fffefe;
+  font-size: 0.4rem;
+  margin: 5rem auto 0;
+  background-image: url(../images/failAnswerQuestion/backAnswer.png);
+  background-size: cover;
+}
+
+/* 退出登录 */
+.logout-logo {
+}
+.logout-logo img {
+  width: 3.89rem;
+  height: 2.72rem;
+  margin: 3.8rem auto;
+}
+.logoutBtn {
+  width: 8rem;
+  height: 1.71rem;
+  line-height: 1.71rem;
+  text-align: center;
+  color: #fffefe;
+  font-size: 0.4rem;
+  margin: 7rem auto 0;
+  background-image: url(../images/failAnswerQuestion/backAnswer.png);
+  background-size: cover;
+}
+
+/* 宇泰云海报 */
+.poster-img {
+  width: 100%;
+  height: 15rem;
+  box-sizing: border-box;
+  padding: 0.53rem 0.27rem;
+  background-clip: border-box;
+  background-image: url(../images/poster/poster-img.png);
+  background-size: cover;
+  position: relative;
+}
+.poster-img .postInfo {
+  position: absolute;
+  bottom: 1rem;
+  left: 0.8rem;
+  font-size: 0.4rem;
+  font-family: 'SourceHanSansCN-Normal';
+}
+.poster-img .postInfo .agent {
+  font-size: 0.51rem;
+  font-family: 'SourceHanSansCN-Medium';
+  margin-bottom: 0.13rem;
+}
+.poster-img .postInfo p {
+  margin-top: 0.11rem;
+}
+.editPoster {
+  margin: 0.4rem auto 0;
+}
+
+/* 培训课程 */
+.coachCourse {
+  background-color: #f9f9f9;
+  padding-top: 0.4rem;
+}
+.courseList {
+  overflow: hidden;
+}
+.courseList .courseItem {
+  background-color: #fff;
+  margin-bottom: 0.16rem;
+  overflow: hidden;
+}
+.courseList .courseItem .itemLeft {
+  float: left;
+  height: 2.4rem;
+  padding: 0.27rem 0.4rem;
+  box-sizing: border-box;
+}
+.courseList .courseItem .itemLeft img {
+  width: 2rem;
+  height: 2rem;
+}
+.courseList .courseItem .itemRight {
+  width: 100%;
+  padding-left: 2.8rem;
+  font-size: 0.32rem;
+  padding: 0.27rem 0.4rem;
+}
+.courseList .courseItem .itemRight .itemTitle {
+  font-size: 0.4rem;
+  font-family: 'SourceHanSansCN-Medium';
+  color: #333;
+  margin-top: 0.12rem;
+  margin-bottom: 0.12rem;
+}
+.courseList .courseItem .itemRight .itemCont {
+  margin-bottom: 0.04rem;
+}
+
+/* 一款保险是如何成为爆款的 */
+.audio {
+  height: 5.33rem;
+  width: 100%;
+  display: block;
+  background-color: #000;
+  position: relative;
+}
+.audio img {
+  width: 1.15rem;
+  height: 1.15rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -0.57rem;
+  margin-top: -0.57rem;
+}
+.howHotDetail {
+  padding: 0.4rem 0.27rem;
+  box-sizing: border-box;
+  width: 100%;
+  height: 2.35rem;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+.howHotDetail .detailLeft {
+  width: 7.5rem;
+  height: 100%;
+  /* background-color: violet; */
+  float: left;
+}
+.howHotDetail .detailLeft .detailTitle {
+  font-size: 0.4rem;
+  font-family: 'SourceHanSansCN-Medium';
+}
+.howHotDetail .detailLeft .detailCont {
+  font-size: 0.32rem;
+  font-family: 'SourceHanSansCN-Light';
+}
+.detailRight {
+  width: 1.8rem;
+  height: 100%;
+  float: right;
+  /* background-color: lime; */
+  text-align: center;
+}
+.detailRight img {
+  display: inline-block;
+  width: 0.99rem;
+  height: 1.07rem;
+}
+.detailRight .personalName {
+  text-align: center;
+  margin-top: -0.3rem;
+  font-size: 0.29rem;
+  font-family: 'SourceHanSansCN-Normal';
+}
+.course {
+  width: 100%;
+  height: 1.33rem;
+}
+.course .courseTitle {
+  line-height: 1.33rem;
+  padding-left: 0.59rem;
+  font-size: 0.4rem;
+  font-family: 'SourceHanSansCN-Medium';
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.course .courseTitle::before {
+  content: '';
+  position: absolute;
+  top: 0.45rem;
+  left: 0.32rem;
+  width: 0.05rem;
+  height: 0.37rem;
+  background-color: #3564e4;
+}
+.courseCont {
+  margin-bottom: 0.7rem;
+}
+.courseCont .courseQuestion {
+  padding: 0 0.26rem;
+  font-size: 0.39rem;
+  font-family: 'SourceHanSansCN-Medium';
+  margin-bottom: 0.5rem;
+}
+.choices {
+  width: 100%;
+}
+.choices .choiceItem {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+}
+.choices .choiceItem .chooseBox {
+  width: 0.53rem;
+  height: 0.53rem;
+  line-height: 0.53rem;
+  border: 1px solid #000;
+  border-radius: 0.1rem;
+  float: left;
+  font-size: 0.4rem;
+  font-family: 'SourceHanSansCN-Normal';
+  text-align: center;
+  margin-left: 0.27rem;
+}
+.choices .choiceItem .chooseBox.active {
+  color: #3564e4;
+  border-color: #3564e4;
+}
+.choices .choiceItem .chooseText {
+  float: left;
+  font-size: 0.4rem;
+  color: #333;
+  font-family: 'SourceHanSansCN-Normal';
+  margin-left: 0.27rem;
+}
+.posterTitle {
+  padding-left: 0.59rem;
+  font-size: 0.4rem;
+  font-family: 'SourceHanSansCN-Medium';
+  color: #333;
+  width: 100%;
+  height: 1.33rem;
+  line-height: 1.33rem;
+  position: relative;
+}
+.posterTitle::before {
+  position: absolute;
+  top: 18px;
+  left: 12px;
+  content: '';
+  width: 0.08rem;
+  height: 0.37rem;
+  background-color: #3564e4;
+}
+.posterPic {
+  padding: 0 0.26rem 0.26rem;
+  display: flex;
+  display: -webkit-flex; /* Safari */
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.posterPic .posterItem {
+  width: 48.5%;
+  height: 4.7rem;
+  margin-bottom: 0.27rem;
+  position: relative;
+}
+.posterPic .posterItem img {
+  width: 100%;
+  height: 100%;
+}
+.posterPic .posterItem .posterDetail {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1.08rem;
+  line-height: 1.08rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-left: 0.27rem;
+  color: #fff;
+  font-size: 0.42rem;
+  font-family: 'SourceHanSansCN-Normal';
+}
+.posterPic .posterItem .moreModalPoster {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  line-height: 4.7rem;
+  padding: 1.5rem 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.posterPic .posterItem .moreModalPoster p {
+  line-height: 0.4rem;
+  font-size: 0.42rem;
+  font-family: 'SourceHanSansCN-Normal';
+  text-align: center;
+  margin-top: 0.27rem;
+  color: #fff;
+}
+/* 我的工具 */
+.showText {
+  width: 100%;
+  padding: 0 0.27rem 0.27rem;
+}
+.showText img {
+  width: 100%;
+}
+.posterPic .poster02 {
+  height: 2.72rem;
+}
+.posterKefu {
+  padding: 0 0.27rem 0.27rem;
+  width: 100%;
+  height: 4.53rem;
+}
+.posterKefu .innerKefu {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #3564e4;
+  border-radius: 0.08rem;
+}
+.posterKefu .innerKefu textarea {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0.25rem;
+}
+.subBtn {
+  padding: 0.35rem 0.27rem 0.27rem;
+  width: 100%;
+}
+.subBtn .toolBtn {
+  width: 100%;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  background-image: url(../images/myTool/submit.png);
+  background-size: contain;
+  text-align: center;
+  font-size: 0.4rem;
+  color: #fff;
+  font-family: 'SourceHanSansCN-Normal';
+}
+/* 中华尊寿险 */
+.longLifeBanner {
+  margin-top: 0.27rem;
+}
+.longLifeBanner img {
+  width: 100%;
+  height: 4rem;
+}
+.longLifeSimpleIntro {
+  padding: 0.33rem 0.27rem;
+  background-color: #fff;
+  margin-bottom: 0.27rem;
+}
+.longLifeSimpleIntro .simpleIntroTit {
+  font-family: 'SourceHanSansCN-Medium';
+  font-size: 0.45rem;
+  margin-bottom: 0.15rem;
+}
+.longLifeSimpleIntro .simpleIntroCont {
+  font-family: 'SourceHanSansCN-Light';
+  font-size: 0.35rem;
+  color: #666;
+}
+.longLifeModule {
+  padding: 0.4rem 0.27rem;
+  background-color: #fff;
+  margin-bottom: 0.27rem;
+}
+.longLifeModule .longLifeCondition .longLifeConditionItem {
+  overflow: hidden;
+  height: 0.84rem;
+  line-height: 0.84rem;
+}
+.longLifeModule .longLifeCondition .longLifeConditionItem .fl {
+  font-family: 'SourceHanSansCN-Medium';
+  font-size: 0.37rem;
+  color: #333;
+}
+.longLifeModule .longLifeCondition .longLifeConditionItem .fr {
+  font-family: 'SourceHanSansCN-Light';
+  font-size: 0.37rem;
+  color: #666;
+}
+.longLifeRules p {
+  font-size: 0.37rem;
+  font-family: 'SourceHanSansCN-Light';
+  color: #666666;
+  line-height: 0.72rem;
+}
+.longLifeTabHead {
+  width: 100%;
+  height: 1.07rem;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.03);
+}
+.longLifeTabHead .longLifeTabItem {
+  float: left;
+  width: 33.33%;
+  height: 100%;
+  line-height: 1.07rem;
+  text-align: center;
+  font-size: 0.4rem;
+  font-family: 'SourceHanSansCN-Light';
+  color: #000;
+  position: relative;
+}
+.longLifeTabHead .longLifeTabItem.active {
+  color: #3564e4;
+}
+.longLifeTabHead .longLifeTabItem::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0.3rem;
+  width: 0.03rem;
+  height: 0.45rem;
+  background-color: #000000;
+}
+.longLifeTabHead .longLifeTabItem.tabItemNone::after {
+  width: 0;
+}
+.longLifeTabCont1 {
+  /* height: 8rem; */
+  margin-top: 0.11rem;
+  margin-bottom: 1.2rem;
+  width: 100%;
+  padding: 0.27rem 0.27rem 0.4rem;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.longLifeTabCont1 .longLifeTabCont1Bot {
+  text-align: center;
+  font-size: 0.29rem;
+  color: #666;
+  line-height: 0.8rem;
+  margin-top: 0.13rem;
+  font-family: 'SourceHanSansCN-Light';
+}
+.longLifeTabCont2 {
+  margin-top: 0.11rem;
+  background-color: #fff;
+  margin-bottom: 2.7rem;
+  display: none;
+}
+.longLifeTabCont2 .longQuickClaim {
+  width: 100%;
+  /* height: 1.87rem; */
+  padding: 0 0.27rem 0.27rem;
+  overflow: hidden;
+}
+.longLifeTabCont2 .longQuickClaim .longQuickClaimImg {
+  width: 0.95rem;
+}
+
+.longLifeTabCont2 .longQuickClaim .longQuickClaimImg img {
+  width: 100%;
+  height: 100%;
+  margin-top: 0.11rem;
+}
+
+.longQuickClaimCont {
+  padding-left: 0.4rem;
+  width: 8.5rem;
+  font-family: 'SourceHanSansCN-Noraml';
+  font-size: 0.35rem;
+}
+.longQuickClaimCont .longQuickClaimContHeight {
+  font-family: 'SourceHanSansCN-Medium';
+  font-size: 0.4rem;
+  color: #333;
+}
+
+.longLifeTabCont3 {
+  margin-top: 0.11rem;
+  padding: 0.27rem 0.3rem 2rem;
+  background-color: #fff;
+  overflow: hidden;
+  margin-bottom: 1.2rem;
+  display: none;
+}
+.longLifeTabCont3 .longLifeNav {
+  width: 25%;
+  float: left;
+  margin-top: 0.27rem;
+}
+.longLifeTabCont3 .longLifeNav img {
+  margin: 0 auto;
+  width: 1.33rem;
+  height: 1.33rem;
+}
+.longLifeTabCont3 .longLifeNav p {
+  text-align: center;
+  margin-top: 0.13rem;
+  font-size: 0.35rem;
+  font-family: 'SourceHanSansCN-Light';
+  color: #333;
+}
+.goInsureLongLife {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  /* z-index: 9; */
+  background: -webkit-linear-gradient(
+    left,
+    #7572ff,
+    #4463ff
+  ); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(
+    left,
+    #7572ff,
+    #4463ff
+  ); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(
+    left,
+    #7572ff,
+    #4463ff
+  ); /* Firefox 3.6 - 15 */
+  background: linear-gradient(left, #7572ff, #4463ff); /* 标准的语法 */
+  color: #fff;
+  text-align: center;
+  font-size: 0.4rem;
+  font-family: 'SourceHanSansCN-Normal';
+}
+/* 点击预约投保显示模态框 */
+.longLifeMask {
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.longLifeModal {
+  width: 100%;
+  height: 100%;
+}
+
+.longLifeMask .longLifeFillInfo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-bottom: 1.2rem;
+  background-color: #fff;
+  padding: 0 0.27rem;
+}
+.longLifeMask .longLifeFillInfo .longLifeFillInfoItem {
+  width: 100%;
+  height: 1.33rem;
+}
+.longLifeMask .longLifeFillInfo input {
+  padding-left: 0.53rem;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 10%);
+}
+.goInsureLongLife1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  z-index: 9;
+  background: -webkit-linear-gradient(
+    left,
+    #7572ff,
+    #4463ff
+  ); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(
+    left,
+    #7572ff,
+    #4463ff
+  ); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(
+    left,
+    #7572ff,
+    #4463ff
+  ); /* Firefox 3.6 - 15 */
+  background: linear-gradient(left, #7572ff, #4463ff); /* 标准的语法 */
+  color: #fff;
+  text-align: center;
+  font-size: 0.4rem;
+  font-family: 'SourceHanSansCN-Normal';
+}
+/* 预约管理 */
+.bookManageItem {
+  margin-bottom: 0.27rem;
+}
+.bookManageList {
+  width: 100%;
+  padding: 0.53rem 0.3rem 0;
+}
+.bookManageList .bookManageItem {
+  width: 100%;
+  height: 3.83rem;
+  padding: 0.53rem;
+  /* background-color: #fff; */
+  background-image: url(../images/bookManage/bgimg.png);
+  background-size: cover;
+}
+.bookManageTop {
+  padding-bottom: 0.13rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 10%);
+}
+.bookManageTopTit {
+  height: 0.8rem;
+  line-height: 0.8rem;
+  color: #333;
+  font-size: 0.4rem;
+  font-family: 'SourceHanSansCN-Medium';
+}
+.agentItem,
+.appointment {
+  overflow: hidden;
+  font-size: 0.35rem;
+  margin-bottom: 0.13rem;
+  color: #666;
+  font-family: 'SourceHanSansCN-Normal';
+}
+.agentItem .agentLeft {
+  margin-right: 0.5rem;
+}
+.appointment .appointLeft {
+  margin-right: 0.2rem;
+}
+.bookManageBot {
+  width: 100%;
+  height: 0.96rem;
+  line-height: 0.96rem;
+  font-size: 0.4rem;
+  font-family: 'SourceHanSansCN-Medium';
+  color: #333;
+}
+
+/* 产品列表 */
+.productList {
+  background-color: #fff;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.proListSearch {
+  width: 100%;
+  height: 1.33rem;
+  display: flex;
+  display: -webkit-flex; /* Safari */
+  justify-content: space-around;
+  align-items: center;
+}
+.proListSearch .proListSearchBox {
+  border: none;
+  background-color: #f9f9f9;
+  width: 9.47rem;
+  height: 0.93rem;
+  text-indent: 0.4rem;
+  font-size: 0.4rem;
+  border-radius: 0.47rem;
+}
+.proListFilter {
+  height: 100%;
+  padding: 0 0.27rem;
+  overflow: hidden;
+  box-shadow: 0 0.05rem 0.08rem rgba(0, 0, 0, 0.05);
+}
+.proListTit {
+  font-size: 0.4rem;
+  height: 100%;
+  line-height: 0.93rem;
+  padding-left: 0.3rem;
+  font-family: 'SourceHanSansCN-Medium';
+  color: #333;
+  position: relative;
+}
+.proListTit::before {
+  content: '';
+  position: absolute;
+  top: 0.24rem;
+  left: 0;
+  width: 0.05rem;
+  height: 0.4rem;
+  background-color: #4463ff;
+}
+.proListFilter .filterBox {
+  height: 100%;
+  line-height: 0.93rem;
+  overflow: hidden;
+  font-size: 0.4rem;
+  font-family: 'SourceHanSansCN-Light';
+  color: #333;
+}
+.proListFilter .filterBox .filterImg {
+  width: 0.29rem;
+  height: 0.33rem;
+  margin-top: 0.3rem;
+  margin-left: 0.27rem;
+}
+.proListFilter .filterBox .filterImg img {
+  width: 100%;
+  height: 100%;
+}
+.proListFilterBtn {
+  margin-top: 0.11rem;
+  display: flex;
+  display: -webkit-flex; /* Safari */
+  justify-content: space-around;
+  padding: 0.8rem 0.16rem;
+}
+.proListFilterBtn .filterBtnItem {
+  width: 47%;
+  height: 1.07rem;
+  line-height: 1.07rem;
+  text-align: center;
+  background-color: #f9f9f9;
+  font-size: 0.37rem;
+  font-family: 'SourceHanSansCN-Normal';
+}
+.proListFilterBtn .filterBtnItem1 {
+  width: 29%;
+}
+.proListFilterBtn .filterBtnItem.active {
+  color: #fff;
+  background-color: #7197ff;
+}
+.proListEnsureBtn {
+  position: fixed;
+  bottom: 0.27rem;
+  left: 0.27rem;
+  width: 9.47rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  text-align: center;
+  border-radius: 0.6rem;
+  font-size: 0.4rem;
+  font-family: 'SourceHanSansCN-Normal';
+  color: #fff;
+  background: -webkit-linear-gradient(
+    left,
+    #7572ff,
+    #4463ff
+  ); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(
+    left,
+    #7572ff,
+    #4463ff
+  ); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(
+    left,
+    #7572ff,
+    #4463ff
+  ); /* Firefox 3.6 - 15 */
+  background: linear-gradient(left, #7572ff, #4463ff); /* 标准的语法 */
+}
+
+/* 产品列表中的寿险筛选功能 */
+/* 精品千聊课程 */
+.competitiveCourse {
+  width: 100%;
+  height: 100%;
+}
+.competitiveCourse img {
+  width: 100%;
+  height: 100%;
+}
+
+.insureComHead {
+  padding: 0.59rem 0.71rem 0.59rem 0.28rem;
+  color: #000;
+  font-size: 0.53rem;
+  font-family: 'SourceHanSansCN-Light';
+  position: relative;
+}
+.insureComHead .line {
+  width: 90%;
+  height: 0.03rem;
+  background-color: rgba(3, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  left: 12px;
+}
+.insureComHead .insureComDate {
+  position: absolute;
+  bottom: 0.66rem;
+  right: 0.72rem;
+  font-family: 'SourceHanSansCN-Normal';
+  font-size: 0.35rem;
+  color: #999;
+}
+.insureComGoodNews {
+  padding: 0.33rem 0.47rem 0.33rem 0.36rem;
+  font-family: 'SourceHanSansCN-Light';
+  font-size: 0.4rem;
+  color: #000;
+}
+.insureComGoodNews p {
+  line-height: 0.7rem;
+}
+.insureComImg {
+  width: 100%;
+}
+.insureComImg img {
+  width: 100%;
+}
+.heavyInsure {
+  width: 100%;
+  padding: 0.3rem 0.44rem 0.3rem 0.36rem;
+}
+.heavyInsure p {
+  width: 100%;
+  /* height: 0.53rem; */
+  line-height: 0.7rem;
+  font-family: 'SourceHanSansCN-Light';
+  font-size: 0.4rem;
+  color: #000;
+}
+
+/* 行业信息 */
+.industryInformation-contanier {
+  background: #f9f9f9;
+}
+.industryInformation-contanier .list {
+  padding: 0;
+  margin: 0;
+  background: #f9f9f9;
+}
+.industryInformation-contanier .list li {
+  background: #ffffff;
+  width: 100%;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  padding: 0 0.29rem;
+  color: #333333;
+  font-size: 0.4rem;
+  margin-top: 0.13rem;
+  /* 	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	-webkit-flex-direction: row; */
+}
+.industryInformation-contanier .list li .text {
+  display: inline-block;
+  float: left;
+  width: 5.7rem;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  color: #333333;
+  font-size: 0.4rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.industryInformation-contanier .list li .date {
+  display: inline-block;
+  color: #999999;
+  font-size: 0.32rem;
+  float: right;
+  height: 1.6rem;
+  line-height: 1.6rem;
+}
+
+/* 宇泰热点 */
+.Hotspot-contanier {
+  background: #f9f9f9;
+}
+.Hotspot-contanier .list {
+  padding: 0;
+  margin: 0;
+  background: #f9f9f9;
+}
+.Hotspot-contanier .list li {
+  background: #ffffff;
+  width: 100%;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  padding: 0 0.29rem;
+  color: #333333;
+  font-size: 0.4rem;
+  margin-top: 0.13rem;
+  /* 	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	-webkit-flex-direction: row; */
+}
+.Hotspot-contanier .list li .text {
+  display: inline-block;
+  float: left;
+  width: 5.47rem;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  color: #333333;
+  font-size: 0.4rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.Hotspot-contanier .list li .date {
+  display: inline-block;
+  color: #999999;
+  font-size: 0.32rem;
+  float: right;
+  height: 1.6rem;
+  line-height: 1.6rem;
+}
+/* 宇泰热点文章 */
+.HotspotArticle-contanier {
+}
+.HotspotArticle-contanier .title {
+  padding: 0.58rem 0.28rem;
+}
+.HotspotArticle-contanier .title {
+  padding: 0.58rem 0.28rem;
+  position: relative;
+}
+.HotspotArticle-contanier .title .text {
+  font-family: 'SourceHanSansCN-Light';
+  font-size: 0.53rem;
+  color: #000000;
+  display: block;
+  line-height: 0.8rem;
+  padding-right: 0.4rem;
+}
+.HotspotArticle-contanier .title .nowdate {
+  position: absolute;
+  bottom: ;
+}
